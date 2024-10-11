@@ -3,3 +3,8 @@ server:
 spring:
   application:
     name: DiscoveryService
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
